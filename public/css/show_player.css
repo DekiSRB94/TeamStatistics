@@ -1,0 +1,121 @@
+body{  
+      flex-direction:column; 
+    }
+    #background-image{
+      width: 100%;
+      height: 820px;
+      background-image: url("/images/background_image.png");
+    }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      padding: 25px;
+      font-size: 20px;
+      background-image: linear-gradient(to right, #680000 , lightblue);
+    }
+    .navbar li{
+      padding-top: 30px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color: #FFDEAD;
+    }
+
+    #name{
+      color: #FFDEAD;
+    }
+
+    #logo{
+      width: 100px;
+    }
+
+    #player img{
+      height: 600px;
+      margin-left: 100px;
+    }
+    
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+    .down{
+      margin-top: 800px;
+    }
+    #player img{
+      height: 420px;
+    }
+  }
+
+  #basic_informations{
+    color:#cc0000;
+    font-size:4.5em;
+    padding-top: 35px;
+  }
+
+  .well{
+    background-color: rgba(255,255,255,.7);
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#cc0000;
+  }
+
+  .text-center{
+    color: blue;
+  }
+
+  .down p{
+    font-size: 6.5em;
+    color: #FFDEAD;
+  }
+
+  #circle {
+    width: 170px;
+    height: 170px;
+    background: transparent;
+    border: 5px solid #FFDEAD;
+    border-radius: 50%;
+    font-size: 1.2em;
+    }
+
+  #circle td{
+    font-size: 2.5em;
+    color: #cc0000;
+  }
+
+  #circle table{
+    margin-top: 20px;
+  }
+
+  .stat_circle{
+    margin-top: 50px;
+  }
+
+  .form-group{
+    margin-top: 35px;
+  }
+
+  .show_button{
+    background-color: lightblue;
+    border: 1px solid black;
+    margin-top: 58px;
+  }
+
+  .statistics_button{
+    margin-top: 50px;
+  }
+
+  footer {
+      background-color: #330000;
+      color: white;
+      padding: 15px;
+      clear: both;
+      position: relative;
+      height: 60px;
+      margin-top: -60px;
+    }
+    footer p{
+      text-align: center;
+      color: white;
+    }
